@@ -190,6 +190,7 @@ header {
 
   width: 700px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .order-service-btm {
@@ -198,15 +199,15 @@ header {
   font-size: 16px;
   line-height: 1.88;
   display: flex;
-  align-items: center;
-  /*text-align: center;*/
+  /*align-items: center;*/
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  background: tomato;
+  margin: 0 auto;
+  padding: 10px 32px;
 }
 
 .order-service-btm:hover,

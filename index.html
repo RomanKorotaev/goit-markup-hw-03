@@ -15,20 +15,22 @@
 </head>
 <body>
     <!--Это шапка страницы-->
-    <header> 
-        <nav>
-            <a class="link logo" href="#">Web<span class="logo-studio-header logo">Studio </span></a>
-            <ul class="list" >
-                <li> <a class="link current navigation-links" href="#">Студия</a></li>
-                <li> <a class="link navigation-links" href="./portfolio.html">Портфолио</a></li>
-                <li> <a class="link navigation-links" href="#">Контакты</a></li>
-            </ul>
-         </nav>
+    <header class="header ">
+        <div class="container">
+            <nav class="navigation">
+                <a class="link logo" href="#">Web<span class="logo-studio-header logo">Studio </span></a>
+                <ul class="list navigation-list" >
+                    <li class="navigation-item"> <a class="link current navigation-links" href="#">Студия</a></li>
+                    <li class="navigation-item"> <a class="link navigation-links" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation-item"> <a class="link navigation-links" href="#">Контакты</a></li>
+                </ul>
+            </nav>
 
-         <ul class="list"> 
-             <li> <a class="link contact-links" href="info@devstudio.com">info@devstudio.com</a></li>
-             <li> <a class="link contact-links" href="tel:+380961111111">+38 096 111 11 11</a></li>
-         </ul>
+            <ul class="list navigation-list header-contacts"> 
+                <li class="navigation-item"> <a class="link contact-links" href="info@devstudio.com">info@devstudio.com</a></li>
+                <li class="navigation-item"> <a class="link contact-links" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- Это основной уникальный контен данной страницы-->
@@ -41,7 +43,7 @@
         <!-- ADVANTAGES SECTION -->
         <section>
             <!--Это логический заголовок секции, который не будет отображаться на странице, но нужен по семантике -->
-            <h2 hidden>Наши преимущества</h2> 
+            <h2 class="visually-hidden">Наши преимущества</h2> 
             <ul class="list">
                 <li>
                     <h3 class="advantages-title">Внимание к деталям</h3>

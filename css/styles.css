@@ -52,7 +52,50 @@ header {
   background: var(--white-color);
 }
 
+/*  Это патерн для крытия логических заголовков */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* ============= COMPONENTS ============= */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ============= END COMPONENTS ============= */
+
 /* ============= HEADER ============= */
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-family: var(--secondary-font);
@@ -60,6 +103,8 @@ header {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+
+  margin-right: 93px;
 }
 
 /* НЕ ЗНАЮ НУЖНЫ ЛИ ЭТИ ЭФФЕКТЫ НА ЛОГОТИПЕ, НО НА ВСЯКИЙ СЛУЧАЙ СДЕЛАЛ. ПРИМЕНЯЕТСЯ И В ШАПКЕ И В ФУТЕРЕ*/
@@ -74,6 +119,10 @@ header {
 
 .logo-studio-footer {
   color: var(--white-color);
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .navigation-links {
@@ -92,6 +141,15 @@ header {
 .navigation-links > .current {
   color: var(--accent-color);
   font-size: 66;
+}
+
+.header-contacts {
+  margin-left: auto;
+}
+
+.header .header-contacts {
+  display: flex;
+  align-items: center;
 }
 
 .contact-links {

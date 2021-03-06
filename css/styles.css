@@ -40,6 +40,7 @@ img {
   --white-color: #ffffff;
   --silver-backgr: #f5f4fa;
   --dark-backgr: #2f303a;
+  --btm-hover: #188ce8;
 }
 
 body {
@@ -173,6 +174,9 @@ header {
 
 .hero-backgr {
   background: var(--dark-backgr);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title {
@@ -183,6 +187,9 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+
+  width: 700px;
+  margin: 0 auto;
 }
 
 .order-service-btm {
@@ -192,20 +199,27 @@ header {
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
+  /*text-align: center;*/
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  background: tomato;
 }
 
 .order-service-btm:hover,
 .order-service-btm:focus {
-  color: var(--accent-color);
+  color: var(--white-color);
+  background: var(--btm-hover);
 }
 
 /* =============  STUDIO. ADVANTAGES SECTION  ============= */
+
+.advantages-list {
+  display: flex;
+}
 
 .advantages-title {
   font-weight: 700;
@@ -233,6 +247,11 @@ header {
   letter-spacing: 0.03em;
   color: var(--header-color);
 }
+
+.whar-we-do-items {
+  display: flex;
+}
+
 .team-section {
   background: var(--silver-backgr);
 }

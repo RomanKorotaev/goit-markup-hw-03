@@ -183,9 +183,9 @@ header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--white-color);
 
   width: 700px;
@@ -198,9 +198,8 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  /*align-items: center;*/
   letter-spacing: 0.06em;
+
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -220,6 +219,14 @@ header {
 
 .advantages-list {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: -30px;
+}
+
+.advantages-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
 }
 
 .advantages-title {
@@ -229,6 +236,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
+  margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -247,27 +255,54 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+
+  margin-bottom: 50px;
 }
 
-.whar-we-do-items {
+.what-we-do-list {
   display: flex;
+  padding-bottom: 94px;
+  margin-left: -30px;
+}
+
+.what-we-do-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 
 .team-section {
   background: var(--silver-backgr);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.team-card > li {
+.team-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.team-list > li {
   background: var(--white-color);
 }
 
+.team-item-wrapper {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
 .team-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  margin-bottom: 10px;
 }
 
 .team-position {

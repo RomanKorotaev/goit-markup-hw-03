@@ -44,6 +44,7 @@ img {
   --btm-hover: #188ce8;
   --header-line: #ececec;
   --work-card-border: #eeeeee;
+  --padding-value: 94px;
 }
 
 body {
@@ -223,8 +224,8 @@ header {
 
 .advantages-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);
   margin-left: -30px;
 }
 
@@ -266,7 +267,7 @@ header {
 
 .what-we-do-list {
   display: flex;
-  padding-bottom: 94px;
+  padding-bottom: var(--padding-value);
   margin-left: -30px;
 }
 
@@ -277,8 +278,8 @@ header {
 
 .team-section {
   background: var(--silver-backgr);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);
 }
 
 .team-list {
@@ -360,8 +361,8 @@ footer {
 
 /* ============= PORTFOLIO. SECTION OUR WORKS ============= */
 .works-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);
 }
 
 .list-works-btm {

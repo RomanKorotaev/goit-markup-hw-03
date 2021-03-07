@@ -430,6 +430,7 @@ footer {
 .work-card-content {
   border: 1px solid var(--work-card-border);
   border-top: none;
+  padding: 20px 24px;
 }
 
 .works-title {
@@ -438,6 +439,8 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-color);
+
+  margin-bottom: 4px;
 }
 
 .works-description {

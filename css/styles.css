@@ -413,6 +413,11 @@ footer {
   border: 1px solid var(--work-card-border);
 }
 
+.work-card-content {
+  border: 1px solid var(--work-card-border);
+  border-top: none;
+}
+
 .works-title {
   font-weight: 700;
   font-size: 18px;

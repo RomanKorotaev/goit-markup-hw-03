@@ -41,6 +41,7 @@ img {
   --silver-backgr: #f5f4fa;
   --dark-backgr: #2f303a;
   --btm-hover: #188ce8;
+  --header-line: #ececec;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
 
 header {
   background: var(--white-color);
+  border-bottom: 1px solid var(--header-line);
 }
 
 /*  Это патерн для крытия логических заголовков */

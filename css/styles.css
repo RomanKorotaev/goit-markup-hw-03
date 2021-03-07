@@ -18,6 +18,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .link {
@@ -410,7 +411,7 @@ footer {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-  border: 1px solid tomato; /*var(--work-card-border);*/
+  border: 1px solid var(--work-card-border);
 }
 
 .works-title {

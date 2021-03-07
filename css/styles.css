@@ -78,6 +78,11 @@ header {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);
+}
+
 /* ============= END COMPONENTS ============= */
 
 /* ============= HEADER ============= */
@@ -276,10 +281,8 @@ header {
   margin-left: 30px;
 }
 
-.team-section {
+.team-section-bkr {
   background: var(--silver-backgr);
-  padding-top: var(--padding-value);
-  padding-bottom: var(--padding-value);
 }
 
 .team-list {
@@ -360,11 +363,6 @@ footer {
 /* ============= END FOOTER ============= */
 
 /* ============= PORTFOLIO. SECTION OUR WORKS ============= */
-.works-section {
-  padding-top: var(--padding-value);
-  padding-bottom: var(--padding-value);
-}
-
 .list-works-btm {
   display: flex;
   justify-content: center;

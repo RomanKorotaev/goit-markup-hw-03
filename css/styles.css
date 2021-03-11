@@ -104,6 +104,7 @@ header {
 .navigation-list {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .logo {
@@ -112,8 +113,6 @@ header {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-
-  margin-right: 93px;
 }
 
 /* НЕ ЗНАЮ НУЖНЫ ЛИ ЭТИ ЭФФЕКТЫ НА ЛОГОТИПЕ, НО НА ВСЯКИЙ СЛУЧАЙ СДЕЛАЛ. ПРИМЕНЯЕТСЯ И В ШАПКЕ И В ФУТЕРЕ*/
@@ -267,7 +266,7 @@ header {
 
 /* ============= END  STUDIO. ADVANTAGES SECTION ============= */
 
-/* =============  STUDIO. SECTION: WHAT WE DO and OUR TEAM ============= */
+/* =============  STUDIO. SECTION: WHAT WE DO  ============= */
 
 .secondary-title {
   font-weight: 700;
@@ -281,11 +280,11 @@ header {
 }
 
 .what-we-do-section {
+  padding-bottom: var(--padding-value);
 }
 
 .what-we-do-list {
   display: flex;
-  padding-bottom: var(--padding-value);
   margin-left: -30px;
 }
 
@@ -293,6 +292,10 @@ header {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
+
+/* =============  STUDIO. END SECTION: WHAT WE DO  ============= */
+
+/* =============  STUDIO. END SECTION: OUR TEAM  ============= */
 
 .team-section-bkr {
   background: var(--silver-backgr);
@@ -315,6 +318,8 @@ header {
 .team-item {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .team-title {
@@ -334,7 +339,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* ============= END  STUDIO. SECTION: WHAT WE DO and OUR TEAM ============= */
+/* ============= END  STUDIO. SECTION: OUR TEAM ============= */
 
 /* ============= FOOTER ============= */
 footer {
@@ -429,7 +434,6 @@ footer {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-  border: 1px solid var(--work-card-border);
 }
 
 .work-card-content {

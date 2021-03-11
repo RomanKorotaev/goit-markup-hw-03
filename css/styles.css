@@ -89,8 +89,6 @@ header {
 .header {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header .container {
@@ -235,10 +233,14 @@ header {
 
 /* =============  STUDIO. ADVANTAGES SECTION  ============= */
 
-.advantages-list {
-  display: flex;
+.advantages-section {
   padding-top: var(--padding-value);
   padding-bottom: var(--padding-value);
+}
+.advantages-list {
+  display: flex;
+  /* padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);*/
   margin-left: -30px;
 }
 
@@ -276,6 +278,9 @@ header {
   color: var(--header-color);
 
   margin-bottom: 50px;
+}
+
+.what-we-do-section {
 }
 
 .what-we-do-list {
